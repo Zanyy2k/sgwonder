@@ -1,0 +1,14 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore other specific files or directories
+/path/to/specific/file_or_directory_to_ignore
+
+# Ignore all `.log` files
+*.log
+
+# Ignore all `node_modules` directories
+node_modules/
+
+# Ignore `.env` files
+.env
