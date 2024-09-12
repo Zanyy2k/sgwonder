@@ -8,15 +8,15 @@ import Element from "./views/Element.vue";
 import Services from "./views/Services.vue";
 
 const routes = [
-  { path: "/", name: "Home", component: Home },
-  { path: "/about", name: "About", component: About },
-  { path: "/contact", name: "Contact", component: Contact },
-  { path: "/element", name: "Element", component: Element },
-  { path: "/services", name: "Services", component: Services },
+  { path: "/sgwonder/", name: "Home", component: Home },
+  { path: "/sgwonder/about", name: "About", component: About },
+  { path: "/sgwonder/contact", name: "Contact", component: Contact },
+  { path: "/sgwonder/element", name: "Element", component: Element },
+  { path: "/sgwonder/services", name: "Services", component: Services },
 ];
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL), // Use HTML5 history mode
+  history: createWebHistory(),
   routes,
 });
 
