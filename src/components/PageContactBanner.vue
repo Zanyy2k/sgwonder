@@ -17,10 +17,11 @@
               class="btn btn-outline-white text-white btn-md font-weight-bold"
               >Get in touch</a
             > -->
-            <a
-              href="/contact"
+
+            <router-link
+              to="/sgwonder/contact"
               class="btn btn-outline-white text-white btn-md font-weight-bold"
-              >联系我们</a
+              >联系我们</router-link
             >
           </p>
         </div>
