@@ -16,26 +16,26 @@
         <li class="nav-item" role="presentation">
           <button
             class="nav-link active"
-            id="pills-home-tab"
+            id="pills-itinerary-tab"
             data-toggle="pill"
-            data-target="#pills-home"
+            data-target="#pills-itinerary"
             type="button"
             role="tab"
-            aria-controls="pills-home"
+            aria-controls="pills-itinerary"
             aria-selected="true"
           >
-            行程概述
+            行程一览
           </button>
         </li>
         <li class="nav-item" role="presentation">
           <button
             class="nav-link"
-            id="pills-profile-tab"
+            id="pills-include-tab"
             data-toggle="pill"
-            data-target="#pills-profile"
+            data-target="#pills-include"
             type="button"
             role="tab"
-            aria-controls="pills-profile"
+            aria-controls="pills-include"
             aria-selected="false"
           >
             包含
@@ -44,12 +44,12 @@
         <li class="nav-item" role="presentation">
           <button
             class="nav-link"
-            id="pills-contact-tab"
+            id="pills-exclude-tab"
             data-toggle="pill"
-            data-target="#pills-contact"
+            data-target="#pills-exclude"
             type="button"
             role="tab"
-            aria-controls="pills-contact"
+            aria-controls="pills-exclude"
             aria-selected="false"
           >
             不包含
@@ -60,9 +60,9 @@
       <div class="tab-content" id="pills-tabContent">
         <div
           class="tab-pane fade show active"
-          id="pills-home"
+          id="pills-itinerary"
           role="tabpanel"
-          aria-labelledby="pills-home-tab"
+          aria-labelledby="pills-itinerary-tab"
         >
           <h2 class="section-title text-center mb-3">行程</h2>
 
@@ -133,9 +133,9 @@
         </div>
         <div
           class="tab-pane fade"
-          id="pills-profile"
+          id="pills-include"
           role="tabpanel"
-          aria-labelledby="pills-profile-tab"
+          aria-labelledby="pills-include-tab"
         >
           <div class="include-day">
             <h3 class="include-title">包含</h3>
@@ -153,9 +153,9 @@
         </div>
         <div
           class="tab-pane fade"
-          id="pills-contact"
+          id="pills-exclude"
           role="tabpanel"
-          aria-labelledby="pills-contact-tab"
+          aria-labelledby="pills-exclude-tab"
         >
           <div class="exclude-day">
             <h3 class="exclude-title">不包含</h3>
@@ -179,7 +179,6 @@
 import PageServicesSection from "../components/PageServicesSection.vue";
 import PageContactBanner from "../components/PageContactBanner.vue";
 import ServiceDetailSection1 from "../components/ServiceDetailSection1.vue";
-import ServiceDetailSection2 from "../components/ServiceDetailSection2.vue";
 import ServiceBatamHeroSection from "../components/ServiceBatamHeroSection.vue";
 
 export default {
@@ -187,7 +186,6 @@ export default {
   components: {
     ServiceBatamHeroSection,
     ServiceDetailSection1,
-    ServiceDetailSection2,
     PageServicesSection,
     PageContactBanner,
   },

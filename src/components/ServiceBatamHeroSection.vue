@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: "ServiceHeroSection",
+  name: "ServiceBatamHeroSection",
   props: {
     backgroundImage: {
       type: String,
