@@ -2,7 +2,7 @@
   <nav class="site-nav">
     <div class="container">
       <div class="site-navigation">
-        <router-link to="/">
+        <router-link to="/sgwonder/">
           <img src="/logo.png" alt="sgwonderLogo" width="130" height="40" />
         </router-link>
         <ul
@@ -12,18 +12,26 @@
             <router-link to="/sgwonder/">首页</router-link>
           </li>
           <li :class="{ active: isActive('/dropdown') }" class="has-children">
-            <a href="/sgwonder/services">我们的服务</a>
+            <router-link to="/sgwonder/services">我们的服务</router-link>
             <ul class="dropdown">
-              <li :class="{ active: isActive('/sgwonder/services') }">
+              <!-- <li :class="{ active: isActive('/sgwonder/services') }">
                 <router-link to="/sgwonder/services">服务</router-link>
+              </li> -->
+              <li :class="{ active: isActive('/sgwonder/Services_StudyTour') }">
+                <router-link to="/sgwonder/Services_StudyTour"
+                  >游学团</router-link
+                >
               </li>
-              <li><a href="/sgwonder/element">游学团</a></li>
               <li class="has-children">
                 <a href="#">一日游</a>
                 <ul class="dropdown">
-                  <li><a href="#">南岛风情</a></li>
-                  <li><a href="#">芭淡岛</a></li>
-                  <li><a href="#">新山一日游</a></li>
+                  <li><a href="#">新加坡南岛风情</a></li>
+                  <li>
+                    <router-link to="/sgwonder/services_batam"
+                      >巴淡岛</router-link
+                    >
+                  </li>
+                  <li><a href="#">新山</a></li>
                 </ul>
               </li>
               <li><a href="#">地接</a></li>
