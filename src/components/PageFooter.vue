@@ -44,11 +44,11 @@
           </div>
           <div class="col-md-6 col-lg-2 pl-lg-5">
             <div class="widget">
-              <h3 class="heading font-weight-bold">Company</h3>
+              <h3 class="heading font-weight-bold">公司</h3>
               <ul class="links list-unstyled">
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">讯息</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">联系我们</a></li>
               </ul>
             </div>
           </div>
@@ -56,10 +56,10 @@
             <div class="widget">
               <h3 class="heading font-weight-bold">Products</h3>
               <ul class="links list-unstyled">
-                <li><a href="#">Hotel</a></li>
-                <li><a href="#">Cruises</a></li>
-                <li><a href="#">1 Day Trips</a></li>
-                <li><a href="#">Customized trips</a></li>
+                <li><a href="#">酒店</a></li>
+                <li><a href="#">游艇</a></li>
+                <li><a href="#">一日游</a></li>
+                <li><a href="#">私人定制</a></li>
               </ul>
             </div>
           </div>
@@ -87,12 +87,12 @@
         <div class="row text-center">
           <div class="col-md-8 mb-3 mb-md-0 mx-auto">
             <p>
-              Copyright &copy; {{ currentYear }} SG WONDER PTE. LTD.
-              (202429962R). All Rights Reserved.
-            </p>
-            <p>
               新加坡文化和旅游国际有限公司(202429962R) &copy;
               {{ currentYear }} . 版权所有
+            </p>
+            <p>
+              Copyright &copy; {{ currentYear }} SG WONDER PTE. LTD.
+              (202429962R). All Rights Reserved.
             </p>
           </div>
         </div>
