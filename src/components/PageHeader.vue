@@ -14,18 +14,20 @@
           <li :class="{ active: isActive('/dropdown') }" class="has-children">
             <router-link to="/sgwonder/services">我们的服务</router-link>
             <ul class="dropdown">
-              <!-- <li :class="{ active: isActive('/sgwonder/services') }">
-                <router-link to="/sgwonder/services">服务</router-link>
-              </li> -->
               <li :class="{ active: isActive('/sgwonder/Services_StudyTour') }">
                 <router-link to="/sgwonder/Services_StudyTour"
                   >游学团</router-link
                 >
               </li>
               <li class="has-children">
-                <a href="#">一日游</a>
+                <a>新加坡一日游</a>
                 <ul class="dropdown">
                   <li><a href="#">新加坡南岛风情</a></li>
+                </ul>
+              </li>
+              <li class="has-children">
+                <a>周边游</a>
+                <ul class="dropdown">
                   <li>
                     <router-link to="/sgwonder/services_batam"
                       >巴淡岛</router-link
@@ -38,7 +40,7 @@
             </ul>
           </li>
           <li :class="{ active: isActive('/sgwonder/about') }">
-            <router-link to="/sgwonder/about">关于我们</router-link>
+            <a href="/sgwonder/about">关于我们</a>
           </li>
           <li :class="{ active: isActive('/sgwonder/contact') }">
             <router-link to="/sgwonder/contact">联系我们</router-link>

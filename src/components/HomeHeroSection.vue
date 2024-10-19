@@ -1,17 +1,16 @@
 <template>
-  <div class="hero">
+  <div class="hero" :style="heroStyle">
+    <!-- <div class="hero"> -->
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7">
           <div class="intro-wrap">
-            <h1 class="mb-5">
+            <!-- <h1 class="mb-5">
               <span class="d-block">期待与您一起</span>漫游
               <span class="typed-words"></span>
-              <!-- <span class="d-block">Let's Enjoy Your</span> Trip In
-              <span class="typed-words"></span> -->
-            </h1>
+            </h1> -->
 
-            <div class="row">
+            <!-- <div class="row">
               <div class="col-12">
                 <form class="form">
                   <div class="row mb-2">
@@ -60,11 +59,11 @@
                     </div>
                   </div>
                 </form>
-              </div>
-            </div>
+              </div> 
+            </div> -->
           </div>
         </div>
-        <div class="col-lg-5">
+        <!-- <div class="col-lg-5">
           <div class="slides">
             <img
               src="/images/marinaBay.jpg"
@@ -74,7 +73,7 @@
             <img src="/images/twintwr.jpg" alt="Image" class="img-fluid" />
             <img src="/images/indobali.jpg" alt="Image" class="img-fluid" />
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -83,6 +82,24 @@
 <script>
 export default {
   name: "HomeHeroSection",
+  props: {
+    backgroundImage: {
+      type: String,
+      default: "", // Allow override
+    },
+  },
+  computed: {
+    heroStyle() {
+      // Fallback to default about section image if no prop is passed
+      const defaultImage = "public/images/marinabay.png";
+      return {
+        background: `url(${
+          this.backgroundImage || defaultImage
+        }) no-repeat center center/cover`,
+        padding: "9rem 0 7rem 0",
+      };
+    },
+  },
 };
 
 $(function () {
@@ -112,5 +129,7 @@ $(function () {
 </script>
 
 <style scoped>
-/* Your styles here */
+.hero {
+  margin-bottom: auto;
+}
 </style>

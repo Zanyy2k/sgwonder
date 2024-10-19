@@ -14,7 +14,7 @@
         <div class="col-6 col-sm-6 col-md-6 col-lg-3">
           <div class="counter-wrap">
             <div class="counter">
-              <span class="" data-number="8492">0</span>
+              <span class="" data-number="5389">0</span>
             </div>
             <!-- <span class="caption">No. of Clients</span> -->
             <span class="caption">客户数量</span>
@@ -23,7 +23,7 @@
         <div class="col-6 col-sm-6 col-md-6 col-lg-3">
           <div class="counter-wrap">
             <div class="counter">
-              <span class="" data-number="100">0</span>
+              <span class="" data-number="10">0</span>
             </div>
             <!-- <span class="caption">No. of Employees</span> -->
             <span class="caption">员工数量</span>
@@ -32,7 +32,7 @@
         <div class="col-6 col-sm-6 col-md-6 col-lg-3">
           <div class="counter-wrap">
             <div class="counter">
-              <span class="" data-number="120">0</span>
+              <span class="" data-number="4">0</span>
             </div>
             <!-- <span class="caption">No. of Countries</span> -->
             <span class="caption">覆盖国家数量</span>

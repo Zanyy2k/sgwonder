@@ -11,7 +11,9 @@
                 Established in 2024, is a company officially registered with the
                 Singapore Tourism Board.
               </p> -->
-              <p>成立于2024年, 我们是一家正式注册于新加坡旅游局的公司。</p>
+              <p>
+                成立于2024年, 我们是一家正式注册于新加坡旅游局(TA03797)的公司。
+              </p>
             </div>
             <div class="widget">
               <ul class="list-unstyled social">

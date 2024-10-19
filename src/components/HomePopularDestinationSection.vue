@@ -4,7 +4,7 @@
       <div class="row text-center justify-content-center mb-5">
         <div class="col-lg-7">
           <!-- <h2 class="section-title text-center">Popular Destination</h2> -->
-          <h2 class="section-title text-center">热门目的地</h2>
+          <h2 class="section-title text-center">热门推荐</h2>
         </div>
       </div>
 
