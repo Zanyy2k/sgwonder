@@ -1,12 +1,14 @@
 <template>
   <HomeHeroSection />
-  <HomePopularDestinationSection />
+  <ServiceDetailSection1 />
+  <!-- <ServiceDetailSection2 /> -->
+  <!-- <HomePopularDestinationSection /> -->
   <PageServicesSection />
-  <PageStatsSection />
+  <!-- <PageStatsSection /> -->
 
-  <PageTestimonials />
+  <!-- <PageTestimonials /> -->
   <!-- <OfferDiscountSection /> -->
-  <PageTourVideoSection />
+  <!-- <PageTourVideoSection /> -->
   <PageContactBanner />
 </template>
 
@@ -19,11 +21,15 @@ import PageTestimonials from "../components/PageTestimonials.vue";
 import OfferDiscountSection from "../components/OfferDiscountSection.vue";
 import PageTourVideoSection from "../components/PageTourVideoSection.vue";
 import PageContactBanner from "../components/PageContactBanner.vue";
+import ServiceDetailSection1 from "../components/ServiceDetailSection1.vue";
+import ServiceDetailSection2 from "../components/ServiceDetailSection2.vue";
 
 export default {
   name: "Home",
   components: {
     HomeHeroSection,
+    ServiceDetailSection1,
+    ServiceDetailSection2,
     PageServicesSection,
     PageStatsSection,
     HomePopularDestinationSection,

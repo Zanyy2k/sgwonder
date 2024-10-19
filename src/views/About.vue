@@ -1,8 +1,8 @@
 <template>
   <AboutHeroSection />
   <AboutDetailSection />
-  <PageTeam />
-  <PageTestimonials />
+  <!-- <PageTeam /> -->
+  <!-- <PageTestimonials /> -->
   <!-- <PageTourVideoSection /> -->
   <PageContactBanner />
 </template>

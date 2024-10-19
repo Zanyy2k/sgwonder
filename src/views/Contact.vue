@@ -1,7 +1,7 @@
 <template>
   <ContactHeroSection />
   <ContactFormSection />
-  <PageTestimonials />
+  <!-- <PageTestimonials /> -->
 </template>
 
 <script>
